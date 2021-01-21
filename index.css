@@ -1,0 +1,73 @@
+.ch-1, .ch-2, .ch-3, .ch-4, .ch-5 {
+    text-align: center;
+    border: 1px solid black;
+    width: 75%;
+    margin:50px auto;
+}
+
+.flex-box-container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+
+.flex-box-container-2 img {
+    border: 1px solid green;
+    padding: 10px;
+}
+
+.flex-box-rps {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-box-rps img:hover {
+    box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
+}
+
+.flex-box-pick-color {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.flex-black-jack-row1, .flex-black-jack-row2, .flex-black-jack-row3 {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.flex-black-jack-row1 {
+    background: url('https://media.istockphoto.com/vectors/poker-table-background-in-green-color-vector-id1206505233?k=6&m=1206505233&s=612x612&w=0&h=3yK8zXZmrh3-tRVtw0wY-AiTTwnqFf_mmNlIGAjlr4E=');
+    color: white;
+}
+
+.flex-black-jack-row1  div {
+    border: 1px solid black;
+    padding: 10px;
+    height: 350px;
+    width: 50%;
+    text-align: center;
+}
+
+.flex-black-jack-row2 > div {
+    width: 30%;
+    margin: 5px auto;
+}
+
+.flex-black-jack-row2 {
+    background: url('https://media.istockphoto.com/vectors/poker-table-background-in-green-color-vector-id1206505233?k=6&m=1206505233&s=612x612&w=0&h=3yK8zXZmrh3-tRVtw0wY-AiTTwnqFf_mmNlIGAjlr4E=');
+    color: white;
+}
+
+.flex-black-jack-row3{
+    border-top: 1px solid black;
+}
+
+table, th {
+    padding: 5px;
+    border: 1px solid black;
+}
